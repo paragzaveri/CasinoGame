@@ -1,0 +1,21 @@
+Name: Parag Zaveri													Class: CSC 214
+Project: Casino Game (7.1 or 7.9)				 Levels: 4 + 1 = 5
+
+Description:
+
+A programming project that emulates playing video poker
+at the casino.  A user will enter a wager (if they choose)
+and are dealt 5 cards.  If the user would like they can
+change out any or all of the 5 cards they are dealt.  The
+program will print the result of the 5 cards (Royal Flush,
+Straight Flush, Four of a Kind, etc).  If the user wagered,
+the reward is presented after the hand is evaluated.  The 
+program uses three classes for constructs, and one utility
+class.  There is a class for the deck and a deck of cards 
+object is constructed and used for the game.  It is shuffled
+and cards are taken from the top.  There is a Card Class which
+is an object for each card storing its value and suit. Finally,
+there is a Hand class which is a class for the object which 
+is the hand the user is dealt and modifies after rejecting
+cards.  A utility class compares the final hand with
+all the possible outcomes in poker and returns the outcome.
